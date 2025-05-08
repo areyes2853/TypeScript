@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areyes2853/TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/areyes2853/TypeScript/issues"
+  },
+  "homepage": "https://github.com/areyes2853/TypeScript#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
