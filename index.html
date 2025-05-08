@@ -3,9 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>TypeScript Greeter</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./Todolist.js" defer></script>
 </head>
 <body>
-  <script src="greeter.js"></script>
+  <div id="myDIV" class="header">
+    <h2>My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+  
+  <ul id="myUL">
+    <li>Hit the gym</li>
+    <li class="checked">Pay bills</li>
+  </ul>
+
+  <p id="greeting-output"></p> 
 </body>
 </html>
